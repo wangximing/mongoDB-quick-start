@@ -62,7 +62,7 @@ var findDocuments = function(db, callback) {
   collection.find({}).toArray(function(err, docs) {
     assert.equal(err, null);
     console.dir(docs);
-    
+    \
     assert.equal(2, docs.length);
     console.log("found the following recodes");
     console.dir(docs);
